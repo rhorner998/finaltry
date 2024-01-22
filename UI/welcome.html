@@ -1,0 +1,26 @@
+<!-- welcome.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Welcome Page</title>
+</head>
+<body>
+<div id="welcome-page">
+    <h1>Welcome to the Chat Page!</h1>
+    <textarea id="large-input" placeholder="Enter something..."></textarea>
+    <textarea id="output-box" readonly></textarea>
+
+    <button onclick="processInput()">Process Input</button>
+    <button onclick="clearInputAndOutput()">Clear Input/Output</button>
+    <button onclick="clearChatHistory()">Clear Chat History</button>
+
+    <div id="chat-history">
+        <h2>Chat History</h2>
+
+    </div>
+<script src="./assets/js/welcomePage.js"></script>
+</body>
+</html>
